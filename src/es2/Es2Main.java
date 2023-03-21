@@ -14,7 +14,7 @@ public class Es2Main {
 	static List<Integer> numRandom(int n) {
 		List<Integer> nRan = new ArrayList<Integer>();
 		for (int i = 0; i < n; i++) {
-			int r = (int) (Math.random() * 100);
+			int r = (int) (Math.random() * 101);
 			// System.out.println(r);
 			nRan.add(r);
 		}

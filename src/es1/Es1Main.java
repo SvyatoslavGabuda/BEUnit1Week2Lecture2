@@ -41,7 +41,7 @@ public class Es1Main {
 		}
 		int n = s.nextInt();
 		if(n<0) {
-			throw new Exception ("Avete inserito un valore negativo. inserito valore di default -- 2 ");
+			throw new Exception ("Avete inserito un valore negativo. inserito valore di default = 2 ");
 		}
 		return n;
 	}
